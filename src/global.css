@@ -1,0 +1,10 @@
+body {overflow: hidden;/*可隐藏滚动条，防止宽度超出被挤下*/}
+body > .page {
+  display: flex;
+  flex-wrap: wrap;
+}
+body > .page > section {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid grey;
+}
